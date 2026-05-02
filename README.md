@@ -24,6 +24,11 @@ This project aims to predict whether a patient has diabetes based on medical att
 - Logistic Regression
 - K-Nearest Neighbors (KNN)
 
+## Evaluation Metrics
+- **Accuracy Score**: Measures overall correctness of predictions  
+- **Confusion Matrix**: Shows correct and incorrect classifications  
+- **Classification Report**: Provides precision, recall, and F1-score for each class
+
 ## 📈 Results
 - Logistic Regression Accuracy: ~70%
 - KNN Accuracy: ~73%
