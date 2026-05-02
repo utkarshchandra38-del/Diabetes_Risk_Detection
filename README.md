@@ -1,2 +1,45 @@
-# Diabetes_Risk_Detection
-The objective of this project is to develop a machine learning model to predict whether a patient has diabetes based on diagnostic features such as glucose level, BMI, age, and other medical attributes from the Pima Indians Diabetes dataset.
+# Diabetes Prediction using Machine Learning
+
+## 📌 Project Overview
+This project aims to predict whether a patient has diabetes based on medical attributes using machine learning models.
+
+## 📊 Dataset
+-The dataset used in this project is the **Pima Indians Diabetes Dataset**, which contains medical diagnostic data of **female patients aged 21 years and above**.
+- Features include:
+  - Pregnancies: Number of times pregnant  
+  - Glucose: Plasma glucose concentration  
+  - BloodPressure: Diastolic blood pressure (mm Hg)  
+  - SkinThickness: Triceps skin fold thickness (mm)  
+  - Insulin: 2-Hour serum insulin (mu U/ml)  
+  - BMI: Body Mass Index  
+  - DiabetesPedigreeFunction: Indicates genetic predisposition to diabetes  
+  - Age: Age of the patient
+
+## ⚙️ Preprocessing
+- Handled missing values (replaced zeros with median)
+- Outlier handling using IQR-based capping
+- Feature scaling using StandardScaler
+
+## 🤖 Models Used
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+
+## 📈 Results
+- Logistic Regression Accuracy: ~70%
+- KNN Accuracy: ~73%
+
+KNN performed better in detecting diabetic cases.
+
+## 📌 Conclusion
+KNN showed better performance, indicating non-linear relationships in the dataset. However, both models struggled with identifying all diabetic cases.
+
+## 🛠️ Technologies Used
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib, Seaborn
+
+## 🚀 Future Improvements
+- Hyperparameter tuning
+- Trying advanced models (Random Forest, XGBoost)
+- Improving recall for diabetic cases
