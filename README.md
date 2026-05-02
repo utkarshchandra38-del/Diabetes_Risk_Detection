@@ -4,13 +4,13 @@
 This project aims to predict whether a patient has diabetes based on medical attributes using machine learning models.
 
 ## 📊 Dataset
--The dataset used in this project is the **Pima Indians Diabetes Dataset**, which contains medical diagnostic data of **female patients aged 21 years and above**.
+-The dataset used in this project is the **Pima Indians Diabetes Dataset**. This dataset is originally from the National Institute of Diabetes and Digestive and Kidney Diseases. It contains medical diagnostic data of **female patients aged 21 years and above**.
 - Features include:
-  - Pregnancies: Number of times pregnant  
+  - Pregnancies: Number of pregnancies the patient has had  
   - Glucose: Plasma glucose concentration  
   - BloodPressure: Diastolic blood pressure (mm Hg)  
   - SkinThickness: Triceps skin fold thickness (mm)  
-  - Insulin: 2-Hour serum insulin (mu U/ml)  
+  - Insulin Level: 2-Hour serum insulin (mu U/ml)  
   - BMI: Body Mass Index  
   - DiabetesPedigreeFunction: Indicates genetic predisposition to diabetes  
   - Age: Age of the patient
